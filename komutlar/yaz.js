@@ -12,6 +12,7 @@ exports.run = (client, message, args) => {
 if (mesaj.length < 1) return message.reply('Yazmam için herhangi bir şey yazmalısın.');
   message.delete();
   message.channel.send(mesaj);
+	msg.react("😲")
 };
 
 exports.conf = {
