@@ -13,7 +13,7 @@ module.exports = client => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar yüklendi!`);
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giriş yapıldı!`);
   client.user.setStatus("online");
-  client.user.setActivity(`k-davet | ${prefix}yardım | v2`, {
+  client.user.setActivity(`k-davet | ${prefix}yardım | v3`, {
   type: "STREAMING",
   url: "https://www.twitch.tv/huseynalieff"
 });
