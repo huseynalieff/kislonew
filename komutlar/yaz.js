@@ -11,8 +11,9 @@ exports.run = (client, message, args) => {
   let mesaj = args.slice(0).join(' ');
 if (mesaj.length < 1) return message.reply('Yazmam için herhangi bir şey yazmalısın.');
   message.delete();
-	msg.react("😲")
+	
   message.channel.send(mesaj);
+
 	
 };
 
