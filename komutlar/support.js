@@ -1,6 +1,6 @@
 //Settings!
-const yourID = ""; //Instructions on how to get this: https://redd.it/40zgse //Kendi İD'nizi Yazın
-const setupCMD = "!createrolemessage" //İstediğiniz Komut Yapabilirsiniz örn : !kayıtol
+const yourID = "412194712036835343"; //Instructions on how to get this: https://redd.it/40zgse //Kendi İD'nizi Yazın
+const setupCMD = "!rol" //İstediğiniz Komut Yapabilirsiniz örn : !kayıtol
 let initialMessage = ``; //Dilediğiniz Şeyi Yazabilirsiniz
 const roles = ["Hacker", "Artist", "Public Relations", "Intern"]; //İstediğiniz Rolü Yazabilirsiniz
 const reactions = ["💻", "🖌", "😃", "🆕"]; //İstediğiniz Emojiyi Ekleyebilirsiniz
