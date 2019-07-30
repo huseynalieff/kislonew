@@ -105,7 +105,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content === 'kislo sahibi') {
    
-    msg.reply('Benim sahibim Kislo#2452!');
+    msg.reply('Benim sahibim Hüseyn#2452!');
   }
 });
 
