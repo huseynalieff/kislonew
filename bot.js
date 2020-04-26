@@ -349,6 +349,12 @@ if (msg.content === 'seni seviyorum') {
 	if (msg.content === 'kislo') {
    	msg.reply('efendim?');
   }
+	if (msg.content === 'sen poxsan') {
+   	msg.reply('sənsəneeee poxxx');
+  }
+	if (msg.content === 'sən poxsan') {
+   	msg.reply('sənsəneeee poxxx');
+  }
 	
 });
 
