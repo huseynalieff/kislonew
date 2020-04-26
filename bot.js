@@ -352,9 +352,6 @@ if (msg.content === 'seni seviyorum') {
 	if (msg.content === 'sen poxsan') {
    	msg.reply('sənsəneeee poxxx');
   }
-	if (msg.content === 'sən poxsan') {
-   	msg.reply('sənsəneeee poxxxx');
-  }
 	
 });
 
